@@ -2,8 +2,8 @@ import './GameInit.css';
 
 const GameInit = ({ props: { noPlay, playGame } }) => {
     return (
-        <main id='init-game' className='gameInit-container flex flex-col items-center flex-wrap'>
-            <h2 className='text-center text-4xl md:text-5xl'>Would you like to play rock, paper, scissors?</h2>
+        <main id='init-game' className='gameInit-container flex flex-col items-center flex-wrap h-3/6 pt-5 md:pt-20'>
+            <h2 className='text-center text-4xl md:text-5xl'>Would you like to play?</h2>
             <article className='flex flex-row justify-evenly w-full pt-10 text-3xl md:text-4xl lg:text-3xl'>
                 <button className='init-btn' onClick={playGame}>Yeah!</button>
                 <button className='init-btn' onClick={noPlay}>Nope!</button>

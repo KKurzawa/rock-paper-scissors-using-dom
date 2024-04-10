@@ -1,5 +1,7 @@
 .game-container {
     display: none;
+    position: fixed;
+    top: 10;
 }
 
 .rps-btn, .yn-btn {

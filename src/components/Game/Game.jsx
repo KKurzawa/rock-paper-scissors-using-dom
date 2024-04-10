@@ -103,7 +103,7 @@ const Game = ({ props: { humanScore, setHumanScore, computerScore, setComputerSc
     }
 
     return (
-        <main id='play-game' className='game-container hidden flex-col  items-center h-3/6 pt-5 md:pt-20'>
+        <main id='play-game' className='game-container hidden flex-col items-center w-full h-3/6 pt-5 md:pt-20'>
             <article id='game' className='flex-col'>
                 <h2 className='text-center text-4xl md:text-5xl'>Choose rock, paper, or scissors.
                 </h2>
@@ -113,7 +113,7 @@ const Game = ({ props: { humanScore, setHumanScore, computerScore, setComputerSc
                     <button className='rps-btn' onClick={scissors}>Scissors</button>
                 </article>
             </article>
-            <h2 id='result' className='py-5 px-5 text-center text-4xl md:text-5xl'>{result}</h2>
+            <h2 id='result' className='pb-1 px-5 text-center text-4xl md:text-5xl'>{result}</h2>
             <article id='play-again' className='hidden flex-col py-5'>
                 <h2 className='py-5 text-center text-4xl md:text-5xl'>Would you like to play again?</h2>
                 <section className='flex flex-row justify-evenly pt-5 mb-10 text-3xl'>

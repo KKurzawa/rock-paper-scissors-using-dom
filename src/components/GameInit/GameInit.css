@@ -1,4 +1,4 @@
-.gameInit-container {
+/* .gameInit-container {
     animation: gameInit-fade-in 1s linear 5s both;
 }
 
@@ -10,7 +10,7 @@
     100% {
         opacity: 1;
     }
-}
+} */
 
 .init-btn {
     background-color: whitesmoke;
