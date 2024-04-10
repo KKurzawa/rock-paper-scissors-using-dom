@@ -1,7 +1,7 @@
 import './Game.css'
 import { useState } from 'react';
 
-const Game = ({ props: { playGame, humanScore, setHumanScore, computerScore, setComputerScore } }) => {
+const Game = ({ props: { humanScore, setHumanScore, computerScore, setComputerScore } }) => {
     const [result, setResult] = useState('')
     const [nextTimeEl, setNextTimeEl] = useState('')
     const [playerChoice, setPlayerChoice] = useState('');
@@ -103,7 +103,7 @@ const Game = ({ props: { playGame, humanScore, setHumanScore, computerScore, set
     }
 
     return (
-        <main id='play-game' className='game-container hidden flex-col  items-center h-3/6 mt-5 md:mt-20'>
+        <main id='play-game' className='game-container hidden flex-col  items-center h-3/6 pt-5 md:pt-20'>
             <article id='game' className='flex-col'>
                 <h2 className='text-center text-4xl md:text-5xl'>Choose rock, paper, or scissors.
                 </h2>

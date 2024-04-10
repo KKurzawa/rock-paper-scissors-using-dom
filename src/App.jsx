@@ -25,7 +25,7 @@ const App = () => {
       <Header props={{ humanScore, computerScore }} />
       <Welcome />
       <GameInit props={{ noPlay, playGame }} />
-      <Game props={{ playGame, humanScore, setHumanScore, computerScore, setComputerScore }} />
+      <Game props={{ humanScore, setHumanScore, computerScore, setComputerScore }} />
       <Footer props={{ setComputerScore, setHumanScore }} />
     </main>
   )
