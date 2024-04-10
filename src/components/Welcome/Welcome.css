@@ -5,6 +5,7 @@
 @keyframes welcome-fade-out {
     0% {
         opacity: 1;
+        display: flex;
     }
     100% {
         opacity: 0;
