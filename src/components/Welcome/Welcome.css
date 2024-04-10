@@ -1,0 +1,13 @@
+.welcome-container {
+    animation: welcome-fade-out 1s linear 4s both;
+}
+
+@keyframes welcome-fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.game-container {
+    display: none;
+}
+
+.rps-btn, .yn-btn {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: .5rem;
+}

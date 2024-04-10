@@ -1,0 +1,12 @@
+.footer-container {
+    border-top: 1px solid whitesmoke;
+    position: absolute;
+    bottom: 0;
+}
+
+.clear-btn {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: .5rem;
+}

@@ -1,0 +1,20 @@
+.gameInit-container {
+    animation: gameInit-fade-in 1s linear 5s both;
+}
+
+@keyframes gameInit-fade-in {
+    0% {
+        opacity: 0;
+        display: none;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.init-btn {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: .5rem;
+}

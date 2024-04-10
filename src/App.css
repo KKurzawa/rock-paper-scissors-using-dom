@@ -1,0 +1,25 @@
+#root {
+ margin: 0;
+ padding: 0;
+box-sizing: border-box;
+height: 100vh;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.app-container {
+  animation: app-fade-in 3s linear .5s both;
+}
+
+@keyframes app-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
