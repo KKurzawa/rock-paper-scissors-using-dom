@@ -23,7 +23,7 @@ const App = () => {
   return (
     <main className='app-container h-full'>
       <Header props={{ humanScore, computerScore }} />
-      <Welcome />
+      {/* <Welcome /> */}
       <GameInit props={{ noPlay, playGame }} />
       <Game props={{ humanScore, setHumanScore, computerScore, setComputerScore }} />
       <Footer props={{ setComputerScore, setHumanScore }} />
